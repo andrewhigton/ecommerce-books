@@ -1,4 +1,18 @@
-.App {
+body {
+  font-family: 'Open Sans Condensed';
+  padding: 20px 60px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*.App {
   text-align: center;
 }
 
@@ -20,3 +34,4 @@
 .App-link {
   color: #09d3ac;
 }
+*/
