@@ -59,7 +59,8 @@ const SHOP_DATA = [
         price: 16
       }
     ]
-  },
+  }
+  // ,
   // {
   //   id: 2,
   //   title: 'Sneakers',
