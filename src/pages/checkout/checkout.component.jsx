@@ -46,5 +46,4 @@ const mapStateToProps = createStructuredSelector({
 });
 
 export default connect(mapStateToProps)(CheckoutPage);
-
-			      // <CheckoutItem key={cartItem.id} cartItem={cartItem} />
+// <CheckoutItem key={cartItem.id} cartItem={cartItem} />

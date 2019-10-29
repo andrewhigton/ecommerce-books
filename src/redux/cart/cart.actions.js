@@ -9,6 +9,16 @@ export const addItem = item => ({
 	payload: item
 })
 
+export const removeItem = item => ({
+	type: CartActionTypes.REMOVE_ITEM,
+	payload: item
+})
+
+export const clearItemFromCart = item => ({
+	type: CartActionTypes.CLEAR_ITEM_FROM_CART,
+	payload: item
+})
+
 // the pattern:
 // in collection item, onClick button, add fn called addItem
 // map disptach to props
@@ -19,11 +29,3 @@ export const addItem = item => ({
 // reducer imports that fn from cart utils, and sends a NEW object. 
 // Q - do you still need initial state here? 
 // then it exports cart reducer, and connects it to the store 
-
-
-
-
-// export const addItem = item => ({
-//   type: CartActionTypes.ADD_ITEM,
-//   payload: item
-// });
